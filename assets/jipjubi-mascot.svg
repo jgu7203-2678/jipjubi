@@ -1,52 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400" role="img" aria-labelledby="title desc">
-<title id="title">집줍이 다람쥐</title><desc id="desc">작은 아파트를 두 손으로 들고 있는 귀여운 다람쥐 캐릭터</desc>
-<defs>
- <linearGradient id="fur" x2="0" y2="1"><stop stop-color="#d99550"/><stop offset="1" stop-color="#b96e35"/></linearGradient>
- <linearGradient id="cream" x2="0" y2="1"><stop stop-color="#fff4df"/><stop offset="1" stop-color="#f4d9b5"/></linearGradient>
- <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#75a9ed"/><stop offset="1" stop-color="#3975c5"/></linearGradient>
- <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#64472e" flood-opacity=".18"/></filter>
-</defs>
-<!-- fluffy tail -->
-<path d="M286 320C355 326 405 275 390 208C380 160 337 151 309 183C291 204 303 230 326 228C345 226 353 245 343 261C330 282 303 277 286 266Z" fill="url(#fur)" stroke="#754323" stroke-width="8" stroke-linejoin="round"/>
-<path d="M333 194C359 179 380 206 373 231C369 247 357 256 344 256C355 233 348 219 333 218C321 217 319 202 333 194Z" fill="#f2c58d"/>
-<!-- ears -->
-<path d="M112 112C91 56 116 24 151 43C177 57 178 91 165 125Z" fill="url(#fur)" stroke="#754323" stroke-width="8"/>
-<path d="M128 94C119 65 131 56 146 65C157 73 158 91 151 108Z" fill="#f6c5b2"/>
-<path d="M251 111C249 58 279 31 309 52C332 69 322 105 299 132Z" fill="url(#fur)" stroke="#754323" stroke-width="8"/>
-<path d="M273 99C274 73 290 64 303 78C311 89 302 105 291 115Z" fill="#f6c5b2"/>
-<!-- body -->
-<path d="M100 337C100 270 130 237 205 237C282 237 316 284 315 365L107 365Z" fill="url(#blue)" stroke="#754323" stroke-width="8"/>
-<path d="M151 270C168 252 238 252 257 272L277 365H135Z" fill="#f8e7ce"/>
-<!-- head -->
-<path d="M83 178C83 93 137 58 211 60C286 61 335 112 333 190C331 260 282 296 208 296C130 296 83 253 83 178Z" fill="url(#fur)" stroke="#754323" stroke-width="9" filter="url(#shadow)"/>
-<!-- face patches -->
-<path d="M104 181C111 133 145 113 179 132C195 141 198 180 180 211C159 245 113 236 104 181Z" fill="url(#cream)"/>
-<path d="M229 132C261 110 303 137 310 180C316 222 278 245 247 217C224 197 213 151 229 132Z" fill="url(#cream)"/>
-<ellipse cx="157" cy="198" rx="30" ry="37" fill="#fff"/>
-<ellipse cx="270" cy="198" rx="30" ry="37" fill="#fff"/>
-<ellipse cx="164" cy="202" rx="18" ry="25" fill="#4b2b1b"/>
-<ellipse cx="264" cy="202" rx="18" ry="25" fill="#4b2b1b"/>
-<circle cx="170" cy="191" r="7" fill="#fff"/><circle cx="270" cy="191" r="7" fill="#fff"/>
-<ellipse cx="119" cy="235" rx="23" ry="13" fill="#f5a99d" opacity=".65"/><ellipse cx="302" cy="235" rx="23" ry="13" fill="#f5a99d" opacity=".65"/>
-<path d="M198 230Q210 219 222 230Q210 244 198 230Z" fill="#70402a"/>
-<path d="M210 239Q207 258 190 254M210 239Q213 258 230 254" fill="none" stroke="#754323" stroke-width="6" stroke-linecap="round"/>
-<path d="M188 270Q210 287 232 270" fill="#e97872" stroke="#754323" stroke-width="5" stroke-linecap="round"/>
-<!-- apartment held -->
-<g filter="url(#shadow)" stroke="#526b86" stroke-width="5" stroke-linejoin="round">
- <path d="M153 185L205 155L259 185V292H153Z" fill="#fffdf8"/>
- <path d="M205 155V292" fill="none"/>
- <path d="M153 185L205 155L259 185" fill="none" stroke="#526b86" stroke-width="7"/>
- <g fill="#8fc2e8" stroke="#526b86" stroke-width="3">
-  <rect x="166" y="199" width="15" height="20" rx="2"/><rect x="190" y="199" width="15" height="20" rx="2"/><rect x="214" y="199" width="15" height="20" rx="2"/><rect x="237" y="199" width="12" height="20" rx="2"/>
-  <rect x="166" y="232" width="15" height="20" rx="2"/><rect x="190" y="232" width="15" height="20" rx="2"/><rect x="214" y="232" width="15" height="20" rx="2"/><rect x="237" y="232" width="12" height="20" rx="2"/>
- </g>
- <path d="M197 265H216V292H197Z" fill="#b5c6d4"/>
-</g>
-<!-- paws holding apartment -->
-<path d="M143 282C123 269 103 276 103 296C103 315 130 323 158 311L171 300Z" fill="#d99550" stroke="#754323" stroke-width="7"/>
-<path d="M258 286C278 270 300 278 299 299C298 317 277 325 250 311L239 299Z" fill="#d99550" stroke="#754323" stroke-width="7"/>
-<!-- hoodie collar -->
-<path d="M155 305Q210 331 266 305L286 365H135Z" fill="url(#blue)" stroke="#754323" stroke-width="7"/>
-<path d="M188 309L210 333L232 309" fill="none" stroke="#d6e7ff" stroke-width="6" stroke-linecap="round"/>
-<path d="M206 333L210 356" stroke="#d6e7ff" stroke-width="4" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440" role="img" aria-labelledby="title desc">
+<title id="title">집줍이 다람쥐</title><desc id="desc">파란 후드티를 입고 작은 아파트를 두 손으로 든 다람쥐</desc>
+<defs><linearGradient id="fur" x2="0" y2="1"><stop stop-color="#e6a45f"/><stop offset="1" stop-color="#bd743d"/></linearGradient><linearGradient id="hood" x2="0" y2="1"><stop stop-color="#80b7f4"/><stop offset="1" stop-color="#3977c7"/></linearGradient><filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#49321f" flood-opacity=".2"/></filter></defs>
+<path d="M290 345C368 354 418 291 398 218C385 167 339 159 311 195C292 219 311 245 335 237C358 230 366 256 350 277C335 297 309 287 290 274Z" fill="url(#fur)" stroke="#754323" stroke-width="9"/><path d="M341 200C367 188 387 213 379 239C375 254 362 266 348 267C360 242 350 228 335 227C324 226 327 207 341 200Z" fill="#f8d6a9"/>
+<path d="M103 116C78 56 111 21 150 42C179 58 178 94 162 132Z" fill="url(#fur)" stroke="#754323" stroke-width="9"/><path d="M122 97C111 66 129 55 146 66C159 76 156 98 147 111Z" fill="#f5c3b5"/>
+<path d="M252 115C247 59 283 28 315 53C342 75 322 112 296 139Z" fill="url(#fur)" stroke="#754323" stroke-width="9"/><path d="M276 99C278 72 296 65 309 80C318 93 304 112 291 120Z" fill="#f5c3b5"/>
+<path d="M92 360C92 279 132 240 210 240C291 240 330 289 326 420H94Z" fill="url(#hood)" stroke="#754323" stroke-width="9"/>
+<path d="M147 278Q210 250 274 280L298 420H122Z" fill="#fff0dc"/>
+<path d="M75 174C75 91 133 55 211 59C292 62 343 113 340 194C337 266 286 302 208 302C128 302 75 258 75 174Z" fill="url(#fur)" stroke="#754323" stroke-width="10" filter="url(#sh)"/>
+<path d="M97 188C105 139 143 119 179 140C202 153 198 206 174 232C144 265 101 235 97 188Z" fill="#fff0dc"/><path d="M235 140C272 117 311 143 319 188C326 231 284 262 252 231C226 207 215 155 235 140Z" fill="#fff0dc"/>
+<ellipse cx="158" cy="190" rx="28" ry="35" fill="white"/><ellipse cx="270" cy="190" rx="28" ry="35" fill="white"/><ellipse cx="164" cy="196" rx="17" ry="24" fill="#4a2c1d"/><ellipse cx="264" cy="196" rx="17" ry="24" fill="#4a2c1d"/><circle cx="170" cy="185" r="7" fill="white"/><circle cx="270" cy="185" r="7" fill="white"/>
+<ellipse cx="117" cy="233" rx="22" ry="13" fill="#f4a9a0" opacity=".7"/><ellipse cx="303" cy="233" rx="22" ry="13" fill="#f4a9a0" opacity=".7"/><path d="M197 229Q210 217 223 229Q210 244 197 229Z" fill="#70402a"/><path d="M210 241Q207 258 191 255M210 241Q213 258 229 255" fill="none" stroke="#754323" stroke-width="5" stroke-linecap="round"/><path d="M190 270Q210 291 230 270" fill="#e97872" stroke="#754323" stroke-width="5" stroke-linecap="round"/>
+<!-- arms and apartment -->
+<path d="M120 306C88 295 73 317 85 344C97 369 127 366 154 346L166 326Z" fill="#d99550" stroke="#754323" stroke-width="8"/><path d="M300 306C332 294 348 318 335 345C323 369 294 365 267 346L255 326Z" fill="#d99550" stroke="#754323" stroke-width="8"/>
+<g filter="url(#sh)" stroke="#526b86" stroke-linejoin="round"><path d="M128 286L210 238L292 286V390H128Z" fill="#fffdf8" stroke-width="7"/><path d="M210 238V390" fill="none" stroke-width="4"/><path d="M128 286L210 238L292 286" fill="none" stroke-width="8"/><g fill="#8fc7ed" stroke-width="4"><rect x="145" y="300" width="22" height="25" rx="3"/><rect x="179" y="300" width="22" height="25" rx="3"/><rect x="219" y="300" width="22" height="25" rx="3"/><rect x="253" y="300" width="22" height="25" rx="3"/><rect x="145" y="340" width="22" height="25" rx="3"/><rect x="179" y="340" width="22" height="25" rx="3"/><rect x="219" y="340" width="22" height="25" rx="3"/><rect x="253" y="340" width="22" height="25" rx="3"/></g><path d="M198 363H222V390H198Z" fill="#b5c6d4" stroke-width="3"/></g>
+<path d="M144 394Q210 423 276 394" fill="none" stroke="#d5e8ff" stroke-width="7" stroke-linecap="round"/>
 </svg>
