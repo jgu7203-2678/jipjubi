@@ -39,7 +39,8 @@ export async function onRequest({ request, env }) {
       return Response.json({
         error: '브이월드가 JSON이 아닌 응답을 반환했습니다.',
         upstreamStatus: upstream.status,
-        upstreamContentType: upstream.headers.get('content-type') || 'unknown'
+        upstreamContentType: upstream.headers.get('content-type') || 'unknown',
+        upstreamPreview: body.slice(0, 180)
       }, { status: 502, headers: cors });
     }
     const result = payload?.response?.result;
