@@ -19,17 +19,28 @@ export async function onRequest({ request, env }) {
     crs: 'epsg:4326',
     address,
     format: 'json',
-    type,
+    type: type.toLowerCase(),
     key: env.VWORLD_API_KEY
   }).toString();
 
   try {
-    const upstream = await fetch(api, { headers: { 'Accept': 'application/json' } });
+    const upstream = await fetch(api, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Referer': 'https://jipjubi-pages.pages.dev/',
+        'Origin': 'https://jipjubi-pages.pages.dev'
+      }
+    });
     const body = await upstream.text();
     let payload;
     try { payload = JSON.parse(body); }
     catch {
-      return Response.json({ error: '브이월드가 JSON이 아닌 응답을 반환했습니다.', upstreamStatus: upstream.status }, { status: 502, headers: cors });
+      return Response.json({
+        error: '브이월드가 JSON이 아닌 응답을 반환했습니다.',
+        upstreamStatus: upstream.status,
+        upstreamContentType: upstream.headers.get('content-type') || 'unknown'
+      }, { status: 502, headers: cors });
     }
     const result = payload?.response?.result;
     const point = result?.point;
