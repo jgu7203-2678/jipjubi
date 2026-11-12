@@ -11,7 +11,7 @@ export async function onRequest({ request, env }) {
   const endmonth = incoming.searchParams.get('endmonth');
   const sido = incoming.searchParams.get('sido') || '';
 
-  if (!/^\\d{6}$/.test(startmonth || '') || !/^\\d{6}$/.test(endmonth || '') || startmonth > endmonth) {
+  if (!/^\d{6}$/.test(startmonth || '') || !/^\d{6}$/.test(endmonth || '') || startmonth > endmonth) {
     return Response.json({ error: '공고 조회 기간은 YYYYMM 형식으로 입력해주세요.' }, { status: 400, headers: cors });
   }
 
