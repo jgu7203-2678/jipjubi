@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">집줍이, 내 집 마련의 꿈</title><desc id="d">햇살 가득한 푸른 하늘과 아파트 숲, 초록 풀숲 속에서 작은 아파트를 든 다람쥐 집줍이</desc>
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#54b8f4"/><stop offset=".7" stop-color="#d9f1ff"/><stop offset="1" stop-color="#fff4d8"/></linearGradient><linearGradient id="grass" x2="0" y2="1"><stop stop-color="#91cf65"/><stop offset="1" stop-color="#3b914e"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<g fill="#fff" opacity=".7"><ellipse cx="750" cy="140" rx="95" ry="30"/><ellipse cx="820" cy="125" rx="65" ry="42"/><ellipse cx="875" cy="145" rx="80" ry="27"/><ellipse cx="1190" cy="245" rx="70" ry="23"/></g>
+<!-- skyline -->
+<g opacity=".92"><g fill="#b8d9ee" stroke="#8ebbd8" stroke-width="5"><path d="M0 430L0 270L125 240L185 280V650H0Z"/><path d="M170 390L170 205L310 170L370 220V660H170Z"/><path d="M340 440L340 290L460 250L515 300V675H340Z"/><path d="M1180 390L1180 220L1315 180L1380 225V650H1180Z"/><path d="M1370 430L1370 255L1510 220L1600 265V660H1370Z"/></g><g fill="#eaf7ff"><path d="M25 305h30v40H25zm55-20h30v40H80zm-55 75h30v40H25zm55 0h30v40H80zM205 245h35v42h-35zm70-20h35v42h-35zm-70 85h35v42h-35zm70 0h35v42h-35zM375 330h30v38h-30zm65-20h30v38h-30zm-65 80h30v38h-30zm65 0h30v38h-30zM1210 265h35v42h-35zm75-20h35v42h-35zm-75 85h35v42h-35zm75 0h35v42h-35zM1400 300h35v42h-35zm75-20h35v42h-35zm-75 85h35v42h-35zm75 0h35v42h-35z"/></g></g>
+<g fill="#70b85a"><circle cx="90" cy="700" r="170"/><circle cx="260" cy="720" r="120"/><circle cx="1420" cy="720" r="190"/><circle cx="1580" cy="690" r="140"/></g><path d="M0 650Q220 600 410 675T800 655T1200 670T1600 630V900H0Z" fill="url(#grass)"/>
+<g fill="#2f8547"><path d="M0 850Q120 720 250 850Q360 730 480 860Q610 740 740 860Q850 730 970 860Q1110 720 1240 860Q1370 720 1500 860Q1560 790 1600 830V900H0Z"/></g>
+<g fill="#fff8e8"><circle cx="110" cy="765" r="11"/><circle cx="130" cy="745" r="10"/><circle cx="150" cy="765" r="11"/><circle cx="130" cy="785" r="10"/><circle cx="1450" cy="770" r="12"/><circle cx="1470" cy="750" r="10"/><circle cx="1490" cy="770" r="12"/><circle cx="1470" cy="790" r="10"/></g>
+<!-- leafy framing -->
+<g fill="#3e9a4d"><path d="M0 0Q120 10 190 140Q90 125 0 210Z"/><path d="M0 0Q190 20 260 95Q120 100 0 135Z"/><path d="M1600 0Q1480 20 1410 145Q1510 130 1600 210Z"/></g>
+<!-- mascot -->
+<image x="780" y="170" width="600" height="680" xlink:href="/assets/jipjubi-mascot.svg"/>
+<!-- typography -->
+<g font-family="Arial,'Noto Sans KR',sans-serif" font-weight="900"><text x="125" y="265" font-size="58" fill="#315c8c" letter-spacing="3">JIPJUBI · 전국청약</text><text x="115" y="410" font-size="92" fill="#164879">내 집 마련의 꿈,</text><text x="115" y="525" font-size="100" fill="#e68a26">집줍이와 함께!</text></g>
+<path d="M120 560Q390 610 660 555" fill="none" stroke="#ffca35" stroke-width="12" stroke-linecap="round"/>
+<g><path d="M1110 75Q1120 40 1170 40H1490Q1555 40 1555 110V210Q1555 270 1490 270H1300L1245 320L1260 270H1170Q1110 270 1110 210Z" fill="#fffaf0" stroke="#e9d5b6" stroke-width="8"/><text x="1160" y="135" font-family="Arial,'Noto Sans KR',sans-serif" font-size="48" font-weight="800" fill="#65452e">어떤 지역의</text><text x="1160" y="205" font-family="Arial,'Noto Sans KR',sans-serif" font-size="54" font-weight="800" fill="#65452e">새집을 찾으세요?</text></g>
+</svg>
